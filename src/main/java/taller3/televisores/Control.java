@@ -2,7 +2,7 @@ package taller3.televisores;
 
 public class Control {
 	// Attributes
-	TV tv;
+	private TV tv;
 	
 	// Getters
 	public TV getTv() {

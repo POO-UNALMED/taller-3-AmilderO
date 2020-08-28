@@ -5,18 +5,18 @@ public class Marca {
 	private String nombre;
 	
 	// Constructors
-	Marca(String nombre){
+	public Marca(String nombre){
 		this.nombre = nombre;
 	}
 	
 	// Getters
-	String getNombre(){
+	public String getNombre(){
 		return nombre;
 		
 	}
 	
 	// Setters
-	void setNombre(String n) {
+	public void setNombre(String n) {
 		nombre = n;
 	}
 }

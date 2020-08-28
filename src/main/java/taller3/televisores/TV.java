@@ -2,14 +2,14 @@ package taller3.televisores;
 
 public class TV {
 	// Attributes
-	Marca marca;
-	Control control;
+	private Marca marca;
+	private Control control;
 	private int canal = 1;
 	private int precio = 500;
 	private boolean estado;
 	private int volumen = 1;
 	
-	static int numTV;
+	private static int numTV;
 	
 	// Constructors
 	TV(Marca marca, boolean estado){
@@ -36,7 +36,7 @@ public class TV {
 	public boolean getEstado() {
 		return estado;
 	}
-	static int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 	// Setters
@@ -55,11 +55,11 @@ public class TV {
 	public void setVolumen(int volumen) {
 		this.volumen = volumen;
 	}
-	static void setNumTV(int num) {
+	public static void setNumTV(int num) {
 		numTV = num;
 	}
 	// Methods
-	static int numTv() {
+	public static int numTv() {
 		return numTV;
 	}
 	public void turnOn() {
