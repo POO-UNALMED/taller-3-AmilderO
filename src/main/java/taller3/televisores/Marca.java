@@ -12,6 +12,7 @@ public class Marca {
 	// Getters
 	String getNombre(){
 		return nombre;
+		
 	}
 	
 	// Setters
