@@ -36,7 +36,7 @@ public class TV {
 	public boolean getEstado() {
 		return estado;
 	}
-	public int getNumTV() {
+	static int getNumTV() {
 		return numTV;
 	}
 	// Setters
@@ -55,7 +55,9 @@ public class TV {
 	public void setVolumen(int volumen) {
 		this.volumen = volumen;
 	}
-	
+	static void setNumTV(int num) {
+		numTV = num;
+	}
 	// Methods
 	static int numTv() {
 		return numTV;
