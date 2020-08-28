@@ -12,7 +12,7 @@ public class TV {
 	private static int numTV;
 	
 	// Constructors
-	TV(Marca marca, boolean estado){
+	public TV(Marca marca, boolean estado){
 		this.marca = marca;
 		this.estado = estado;
 	}
