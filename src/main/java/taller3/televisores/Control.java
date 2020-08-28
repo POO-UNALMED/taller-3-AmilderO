@@ -5,13 +5,13 @@ public class Control {
 	TV tv;
 	
 	// Getters
-	public TV getTV() {
+	public TV getTv() {
 		return tv;
 	}
 	
 	
 	// Setters
-	public void setTV(TV tv) {
+	public void setTv(TV tv) {
 		this.tv = tv;
 	}
 	

@@ -36,7 +36,7 @@ public class TV {
 	public boolean getEstado() {
 		return estado;
 	}
-	public int getnumTV() {
+	public int getNumTV() {
 		return numTV;
 	}
 	// Setters
@@ -57,7 +57,7 @@ public class TV {
 	}
 	
 	// Methods
-	static int numTV() {
+	static int numTv() {
 		return numTV;
 	}
 	public void turnOn() {
