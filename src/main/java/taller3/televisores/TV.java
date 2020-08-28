@@ -36,7 +36,9 @@ public class TV {
 	public boolean getEstado() {
 		return estado;
 	}
-	
+	public int getnumTV() {
+		return numTV;
+	}
 	// Setters
 	public void setMarca(Marca marca) {
 		this.marca = marca;
