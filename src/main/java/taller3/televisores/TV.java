@@ -84,12 +84,12 @@ public class TV {
 		}
 	}
 	public void volumenUp() {
-		if(volumen >= 0 && volumen <= 7 && this.getEstado() == true) {
+		if(volumen >= 0 && volumen <= 6 && this.getEstado() == true) {
 			volumen += 1;
 		}
 	}
 	public void volumenDown() {
-		if(volumen >= 0 && volumen <= 7 && this.getEstado() == true) {
+		if(volumen >= 1 && volumen <= 7 && this.getEstado() == true) {
 			volumen -= 1;
 		}
 	}
