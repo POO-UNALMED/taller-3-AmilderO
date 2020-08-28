@@ -41,4 +41,7 @@ public class Control {
 	public void volumenDown() {
 		tv.volumenDown();
 	}
+	public void setVolumen(int vol) {
+		tv.setVolumen(vol);
+	}
 }
